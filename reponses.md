@@ -15,3 +15,14 @@ J'ai choisi la commande : git reset --soft HEAD~1. Les modifications sont toujou
 ### Mission 9
 
 Dans cette mission on a utilisé git revert plutot que git reset car l'équipe à déjà récupéré le commit, donc avec un reset on aurait eu un log différent de l'équipe.
+
+## Partie 7
+
+La commande utilisée est : git cherry-pick 3918126 (pour mon cas), car elle permet de récupérer seulement le commit 3918126. Une fusion classique aurait pris aussi les commits 1 et 3.
+
+## Partie 8
+
+Pour ce qui est du tag v1.0.0, le premier chiffre représente une modification majeure, le 2e une modification mineure, et le 3e un correctif.
+ - Correction de bug mineur : 1.0.1
+ - Nouvelle fonctionnalité compatible : 1.1.0
+ - Refonte majeur incompatible : 2.0.0
